@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "flask_googlemaps"
-version = "0.4.1"
+version = "0.4.2"
 description = "Easy way to add GoogleMaps to Flask Applications"
 authors = ["Riverfount - Vulgo Vicente Marçal <vicente.marcal@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/flask-extensions/Flask-GoogleMaps"
+repository = "https://github.com/KashaMalaga/Flask3-GoogleMaps"
 homepage = "https://flaskextensions.com"
 classifiers=[
     'Development Status :: 5 - Production/Stable',

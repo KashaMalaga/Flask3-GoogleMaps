@@ -5,7 +5,8 @@ __version__ = "0.4.0"
 from json import dumps
 from typing import Optional, Dict, Any, List, Union, Tuple, Text
 import requests
-from flask import Blueprint, Markup, g, render_template
+from flask import Blueprint, g, render_template
+from markupsafe import Markup
 
 from flask_googlemaps.icons import dots, Icon
 
