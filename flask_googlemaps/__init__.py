@@ -806,10 +806,12 @@ class Map(object):
         return json_dict
 
     def verify_lat_lng_coordinates(self, lat, lng):
+        lat = float(lat)
         if not (90 >= lat >= -90):
             raise AttributeError(
                 "Latitude must be between -90 and 90 degrees inclusive."
             )
+        lng = float(lng)    
         if not (180 >= lng >= -180):
             raise AttributeError(
                 "Longitude must be between -180 and 180 degrees inclusive."
